@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тетовое задание KONTUR</title>
+    <link rel="icon" type="image/png" href="/images/logo.svg" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="pages">
+    <div class="page">
+      <header class="header">
+        <img class="logo" src="./images/logo.svg" alt="CoDe" />
+        <nav class="header__menu">
+          <ul class="header__items">
+            <li class="header__item">
+              <a class="header__link" href="#">Чему вы научитесь</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Процесс обучения</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Стоимость</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="contacts">+7&nbsp(499)&nbsp348&nbsp93&nbsp96</p>
+      </header>
+      <main class="content">
+        <!-- Баннер https://codepen.io/ekrz/pen/EgJJYo и https://codepen.io/A360/pen/zYqKvXN-->
+        <section class="banner">
+          <ul class="banner__slides">
+            <li class="banner__slide">
+              <div class="banner__container">
+                <h1 class="banner__title">
+                  Школа
+                  <span class="banner__title color-main">{</span>
+                  <span class="banner__title text-selection"
+                    >программирования</span
+                  >
+                  <span class="banner__title color-main">}</span>
+                  для тех, кому нужны реальные навыки, а не просто сертификат
+                </h1>
+                <p class="banner__text">
+                  Закажите звонок, и наш специалист свяжется с вами в ближайшее
+                  время
+                </p>
+
+                <form
+                  class="banner__form"
+                  action="page/new.html"
+                  target="_blank"
+                >
+                  <button
+                    aria-label="Заказать звонок"
+                    type="submit"
+                    class="banner__button"
+                  >
+                    Заказать звонок
+                    <img
+                      class="banner__button-image"
+                      src="./images/banner-button-image.svg"
+                      alt="Стрелка"
+                    />
+                  </button>
+                </form>
+              </div>
+              <img
+                class="banner__image"
+                src="./images/banner-slide-1.png"
+                alt="Печатающие руки за компьютером"
+              />
+            </li>
+            <li class="banner__slide">
+              <div class="banner__container">
+                <h2 class="banner__title">Обучение через практику</h2>
+                <p class="banner__text">
+                  Всё, что вы узнали, вы тут же начинаете применять на практике.
+                  Вы сразу видите результаты своего труда.
+                </p>
+                <form
+                  class="banner__form"
+                  action="page/new.html"
+                  target="_blank"
+                >
+                  <button
+                    aria-label="Заказать звонок"
+                    type="submit"
+                    class="banner__button"
+                  >
+                    Заказать звонок
+                    <img
+                      class="banner__button-image"
+                      src="./images/banner-button-image.svg"
+                      alt="Стрелка"
+                    />
+                  </button>
+                </form>
+              </div>
+              <img
+                class="banner__image"
+                src="./images/banner-slide-2.png"
+                alt="Печатающие руки за компьютером"
+              />
+            </li>
+            <li class="banner__slide">
+              <div class="banner__container">
+                <h2 class="banner__title">
+                  Весь материал разбит на небольшие уроки
+                </h2>
+                <p class="banner__text">
+                  Теория и практика подаются маленькими порциями. Так вам будет
+                  легче усваивать новые знания.
+                </p>
+                <form
+                  class="banner__form"
+                  action="page/new.html"
+                  target="_blank"
+                >
+                  <button
+                    aria-label="Заказать звонок"
+                    type="submit"
+                    class="banner__button"
+                  >
+                    Заказать звонок
+                    <img
+                      class="banner__button-image"
+                      src="./images/banner-button-image.svg"
+                      alt="Стрелка"
+                    />
+                  </button>
+                </form>
+              </div>
+              <img
+                class="banner__image"
+                src="./images/banner-slide-3.png"
+                alt="Печатающие руки за компьютером"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="description">
+          <!-- Информационные блоки (Обучение в CoDe – это удобно и результативно) должны выполняться на flexbox -->
+          <p class="description__text">
+            Обучение в CoDe – это удобно и результативно
+          </p>
+          <ul class="description__items">
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-1.svg"
+                alt="Код в знаковых бозначениях"
+              />
+              <h2 class="description__item-title">
+                Огромное количество практики
+              </h2>
+              <p class="description__item-text">
+                Более 500 самостоятельных заданий и 20 полноценных больших
+                проектов
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-2.svg"
+                alt="Ядро круглой формы со спутниками на орбите"
+              />
+              <h2 class="description__item-title">
+                Современные методики обучения
+              </h2>
+              <p class="description__item-text">
+                Спиральное обучение: погружаемся в материал постепенно, виток за
+                витком
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-3.svg"
+                alt="Компьютер"
+              />
+              <h2 class="description__item-title">
+                Простое и понятное изложение
+              </h2>
+              <p class="description__item-text">
+                Вместо заумных терминов – примеры из реального мира
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-4.svg"
+                alt="Календарь"
+              />
+              <h2 class="description__item-title">Гибкий график занятий</h2>
+              <p class="description__item-text">
+                Учитесь в любое время в удобном для вас темпе
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-5.svg"
+                alt="Сообщения"
+              />
+              <h2 class="description__item-title">
+                Прямая связь с опытными программистами
+              </h2>
+              <p class="description__item-text">
+                Задавайте вопросы и отправляйте свой код на проверку
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-6.svg"
+                alt="Рублевая монета"
+              />
+              <h2 class="description__item-title">Оплата небольшими частями</h2>
+              <p class="description__item-text">
+                Платите только за тот материал, который сейчас изучаете, а не за
+                весь курс сразу
+              </p>
+            </li>
+            <li class="description__item">
+              <img
+                class="description__item-image"
+                src="./images/description-item-image-7.svg"
+                alt="Карта в банкомате"
+              />
+              <h2 class="description__item-title">Быстрый и легкий возврат</h2>
+              <p class="description__item-text">
+                Если передумаете учиться – вернем деньги за 3 рабочих дня
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="about-project">
+          <ul class="about-project__items">
+            <li class="about-project__item">
+              <img
+                class="about-project__item-image"
+                src="./images/about-project__item-image-1.jpg"
+                alt="Два человека обсуждают проект на компьютере"
+              />
+              <div class="about-project__item-container">
+                <h2 class="about-project__item-title">Помощь и поддержка</h2>
+                <p class="about-project__item-text">
+                  Если в процессе обучения возникнут сложности, вы всегда
+                  сможете задать вопрос своему наставнику.
+                </p>
+                <p class="about-project__item-text">
+                  Раз в несколько уроков вы будете получать большое задание,
+                  которое нужно будет сдавать на проверку код-ревьюеру. Он
+                  внимательно изучит ваш код, найдет ошибки и поможет вам стать
+                  лучше.
+                </p>
+              </div>
+            </li>
+            <li class="about-project__item">
+              <div class="about-project__item-container">
+                <h2 class="about-project__item-title"></h2>
+                <p class="about-project__item-text"></p>
+                <p class="about-project__item-text"></p>
+              </div>
+              <img
+                class="about-project__item-image"
+                src="./images/about-project__item-image-2.jpg"
+                alt="Два человека обсуждают проект на компьютере"
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="gallery">
+          <!-- Фотографии в блоке галереи должны открываться в полный экран для просмотра (нужно использовать fancybox) и выполняться с помощью grid. -->
+          <img
+            class="gallery__image"
+            src="./images/gallery-image(people).png"
+            alt="Люди обсуждают лист бумаги"
+          />
+          <img
+            class="gallery__image"
+            src="./images/gallery-image(keys).png"
+            alt="Клавиши со стеком програмирования"
+          />
+          <img
+            class="gallery__image"
+            src="./images/gallery-image(hands-with-watch).png"
+            alt="Руки с часами за компьютером"
+          />
+          <img
+            class="gallery__image"
+            src="./images/gallery-image(hands).png"
+            alt="Руки за компьютером"
+          />
+          <img
+            class="gallery__image"
+            src="./images/gallery-image(boy).png"
+            alt="Мальчик за компьютером улыбается"
+          />
+        </section>
+        <section class="location">
+          <img
+            class="location__image"
+            src="./images/location.png"
+            alt="Местонахождение офиса"
+          />
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__box footer__box_direction_column">
+            <div class="footer__box footer__box_direction_row">
+              <img class="logo" src="./images/logo.svg" alt="CoDe" />
+              <p class="footer__text">Школа программирования</p>
+            </div>
+            <ul class="footer__items footer__items_direction_row">
+              <li class="footer__item">
+                <a class="footer__messenger-link" href="#">
+                  <img
+                    class="footer__messenger-image"
+                    src="./images/footer__messenger-image(instagram).svg"
+                    alt="Инстаграм"
+                  />
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__messenger-link" href="#">
+                  <img
+                    class="footer__messenger-image"
+                    src="./images/footer__messenger-image(vk).svg"
+                    alt="ВК"
+                  />
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__messenger-link" href="#">
+                  <img
+                    class="footer__messenger-image"
+                    src="./images/footer__messenger-image(facebook).svg"
+                    alt="Фэйсбук"
+                  />
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__messenger-link" href="#">
+                  <img
+                    class="footer__messenger-image"
+                    src="./images/footer__messenger-image(youtube).svg"
+                    alt="Ютуб"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__box">
+            <ul class="footer__items footer__items_direction_column">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Чему вы научитесь</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Процесс обучения</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Стоимость</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Контакты</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Регистрация</a>
+              </li>
+            </ul>
+            <ul class="footer__items footer__items_direction_column">
+              <li class="footer__item">
+                <p class="contacts">+7&nbsp(499)&nbsp348&nbsp93&nbsp96</p>
+              </li>
+              <li class="footer__item"><p class="contacts">info@code.ru</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__container">
+          <p class="footer__copyright">2024 © Все права защищены</p>
+          <div class="footer__box">
+            <p class="footer__copyright">Пользовательское соглашение</p>
+            <p class="footer__copyright">Политика конфиденциальности</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./pages/index.js"></script>
+  </body>
+</html>
