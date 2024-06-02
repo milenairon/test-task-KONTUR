@@ -1,8 +1,6 @@
 /*Нормалайз*/
 @import url(../vendor/normalize.css);
 
-/* ////УДАЛИ ГРАНИЦЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 /*Шрифты*/
 @import url(../vendor/fonts.css);
 
@@ -75,7 +73,7 @@
 
 /*Блок location*/
 @import url(../blocks/location/location.css);
-@import url(../blocks/location/__image/location__image.css);
+@import url(../blocks/location/__container/location__container.css);
 
 /*Блок footer*/
 @import url(../blocks/footer/footer.css);
