@@ -40,12 +40,7 @@
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__text/banner__text.css);
 @import url(../blocks/banner/__form/banner__form.css);
-@import url(../blocks/banner/__button/banner__button.css);
-@import url(../blocks/banner/__button-image/banner__button-image.css);
 /* @import url(../blocks/banner/__image/banner__image.css); */
-
-/*Блок color-main*/
-@import url(../blocks/color-main/color-main.css);
 
 /*Блок text-selection*/
 @import url(../blocks/text-selection/text-selection.css);
@@ -104,4 +99,22 @@
 
 /*Блок color-text*/
 @import url(../blocks/color-text/color-text.css);
+
+/* Блок popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__field/popup__field.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__button/_disabled/popup__button_disabled.css);
+@import url(../blocks/popup/__text/popup__text.css);
+
+/*Блок color-main*/
+@import url(../blocks/color-main/color-main.css);
+
+@import url(../blocks/button-main/button-main.css);
+@import url(../blocks/button-main/__image/banner__button-image.css);
 

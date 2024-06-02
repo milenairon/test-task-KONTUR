@@ -1,3 +1,13 @@
+//Находим элементы секции banner
+const banner = document.querySelector(".banner");
+const bannerButton = banner.querySelector(".button-main");
+
+//Находим элементы секции popup
+//popup bell
+// const popupFormbell = banner.querySelector(".popup__form_type_bell");
+
+export { bannerButton };
+
 // //Находим элементы секции pages
 // const pages = document.querySelector(".pages");
 // //Находим элементы секции profile
@@ -7,8 +17,8 @@
 // const profileButtonAvatar = profile.querySelector(".profile__button-avatar");
 
 // //Находим элементы секции popup
-// //popup Edit
-// const popupFormEdit = pages.querySelector(".popup__form_type_edit");
+// //popup bell
+// const popupFormbell = pages.querySelector(".popup__form_type_bell");
 
 // //popup Add
 // const popupAdd = pages.querySelector(".popup_place_add");
@@ -33,7 +43,7 @@
 //   profileButtonInfo,
 //   profileButtonAdd,
 //   profileButtonAvatar,
-//   popupFormEdit,
+//   popupFormbell,
 //   popupFormAdd,
 //   popupFormUpdateAvatar,
 //   config,

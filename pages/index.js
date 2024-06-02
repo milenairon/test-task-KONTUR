@@ -2,6 +2,44 @@
 // import Api from "./../components/Api.js";
 // const quotesButton = document.querySelector(".quotes__button");
 
+import PopupWithForm from "../components/PopupWithForm.js";
+import { bannerButton } from "../utils/constants.js";
+
+function openbell() {
+  //создано для слушателя
+  //вставляет данные при открытии
+  //   popupWithFormbell.setInputValues(userInfoElement.getUserInfo());
+  popupWithFormbell.open();
+  //   validationFormbell.addButonInactive();
+  console.log(1);
+}
+
+bannerButton.addEventListener("click", openbell);
+
+//Действия при Submit формы bell
+const popupWithFormbell = new PopupWithForm(".popup_place_bell", {
+  callbackSubmitForm: (inputValues) => {
+    console.log(2);
+    //   popupWithFormbell.changeValueButtonAtBoot("Сохранение...");
+    //Запрос. Редактирование профиля
+    //   api
+    //     .bellProfile(inputValues.forename, inputValues.job)
+    //     .then((data) => {
+    //       popupWithFormbell.changeValueButtonAtBoot("Данные сохранены!");
+    //       userInfoElement.setUserInfo(data);
+    //       popupWithFormbell.close();
+    //     })
+    //     .catch((error) => {
+    //       //если запрос не ушел
+    //       console.log(error);
+    //     })
+    //     .finally(() => {
+    //       popupWithFormbell.changeValueButtonAtBoot("Сохранить");
+    //     });
+  },
+});
+popupWithFormbell.setEventListeners();
+
 // //Запрос
 // const api = new Api({
 //   url: "https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=json&lang=ru",

@@ -1,0 +1,21 @@
+/*pop up редактирования*/
+.popup__container {
+  position: relative;
+  top: 0;
+  right: 0;
+  margin: auto;
+  align-self: center;
+  width: 635px;
+  background: #ffffff;
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  padding: 80px 53px;
+  box-sizing: border-box;
+  cursor: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__container {
+    width: 320px;
+    padding: 25px 22px 25px;
+  }
+}

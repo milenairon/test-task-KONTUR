@@ -1,4 +1,4 @@
-.banner__button {
+.button-main {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
@@ -9,6 +9,6 @@
   background-color: #f15525;
   cursor: pointer;
 }
-.banner__button:hover {
+.button-main:hover {
   background-color: #38bff2;
 }

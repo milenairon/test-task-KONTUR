@@ -38,7 +38,7 @@
 
 - Ссылка на макет: https://www.figma.com/file/LO52lOozNdEPKfb4Q8Zs5i/Тестовое-для-frontend-разработчика-%7C-ГК-STA?type=design&node-id=0-1&mode=design&t=QFcZcD0xwbfUvMWD-0
 
-- Ссылка на тз: https://docs.google.com/document/d/1Hk-ApB5V0A76a7r19NKnwmpLFvDiZfQ3iUU-nnXK6SY/edit?pli=1
+- Ссылка на тз: https://docs.google.com/document/d/1Hk-ApB5V0A76a7r19NKnwmpLFvDiZfQ3iUU-nnXK6SY/bell?pli=1
 
 ---
 

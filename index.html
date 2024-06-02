@@ -15,16 +15,20 @@
           <nav class="header__menu">
             <ul class="header__items">
               <li class="header__item">
-                <a class="header__link" href="#">Чему вы научитесь</a>
+                <a class="header__link" href="#" target="_blank"
+                  >Чему вы научитесь</a
+                >
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Процесс обучения</a>
+                <a class="header__link" href="#" target="_blank"
+                  >Процесс обучения</a
+                >
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Стоимость</a>
+                <a class="header__link" href="#" target="_blank">Стоимость</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Контакты</a>
+                <a class="header__link" href="#" target="_blank">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -60,19 +64,15 @@
                   Закажите звонок, и наш специалист свяжется с вами в ближайшее
                   время
                 </p>
-                <form
-                  class="banner__form"
-                  action="page/new.html"
-                  target="_blank"
-                >
+                <form class="banner__form">
                   <button
+                    class="button-main"
                     aria-label="Заказать звонок"
-                    type="submit"
-                    class="banner__button"
+                    type="button"
                   >
                     Заказать звонок
                     <img
-                      class="banner__button-image"
+                      class="button-main-image"
                       src="./images/banner-button-image.svg"
                       alt="Стрелка"
                     />
@@ -100,11 +100,11 @@
                   <button
                     aria-label="Заказать звонок"
                     type="submit"
-                    class="banner__button"
+                    class="button-main"
                   >
                     Заказать звонок
                     <img
-                      class="banner__button-image"
+                      class="button-main-image"
                       src="./images/banner-button-image.svg"
                       alt="Стрелка"
                     />
@@ -134,11 +134,11 @@
                   <button
                     aria-label="Заказать звонок"
                     type="submit"
-                    class="banner__button"
+                    class="button-main"
                   >
                     Заказать звонок
                     <img
-                      class="banner__button-image"
+                      class="button-main-image"
                       src="./images/banner-button-image.svg"
                       alt="Стрелка"
                     />
@@ -371,7 +371,7 @@
             </div>
             <ul class="footer__items footer__items_direction_row">
               <li class="footer__item">
-                <a class="footer__messenger-link" href="#">
+                <a class="footer__messenger-link" href="#" target="_blank">
                   <img
                     class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(instagram).svg"
@@ -385,7 +385,7 @@
                 </a>
               </li>
               <li class="footer__item">
-                <a class="footer__messenger-link" href="#">
+                <a class="footer__messenger-link" href="#" target="_blank">
                   <img
                     class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(vk).svg"
@@ -399,7 +399,7 @@
                 </a>
               </li>
               <li class="footer__item">
-                <a class="footer__messenger-link" href="#">
+                <a class="footer__messenger-link" href="#" target="_blank">
                   <img
                     class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(facebook).svg"
@@ -413,7 +413,7 @@
                 </a>
               </li>
               <li class="footer__item">
-                <a class="footer__messenger-link" href="#">
+                <a class="footer__messenger-link" href="#" target="_blank">
                   <img
                     class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(youtube).svg"
@@ -431,19 +431,23 @@
           <div class="footer__box footer__box_direction_row footer__box_gap_l">
             <ul class="footer__items footer__items_direction_column">
               <li class="footer__item">
-                <a class="footer__link" href="#">Чему вы научитесь</a>
+                <a class="footer__link" href="#" target="_blank"
+                  >Чему вы научитесь</a
+                >
               </li>
               <li class="footer__item">
-                <a class="footer__link" href="#">Процесс обучения</a>
+                <a class="footer__link" href="#" target="_blank"
+                  >Процесс обучения</a
+                >
               </li>
               <li class="footer__item">
-                <a class="footer__link" href="#">Стоимость</a>
+                <a class="footer__link" href="#" target="_blank">Стоимость</a>
               </li>
               <li class="footer__item">
-                <a class="footer__link" href="#">Контакты</a>
+                <a class="footer__link" href="#" target="_blank">Контакты</a>
               </li>
               <li class="footer__item">
-                <a class="footer__link" href="#">Регистрация</a>
+                <a class="footer__link" href="#" target="_blank">Регистрация</a>
               </li>
             </ul>
             <ul class="footer__list">
@@ -464,7 +468,80 @@
           </div>
         </div>
       </footer>
+      <div class="popup popup_place_bell">
+        <div class="popup__container popup__container_place_bell">
+          <h2 class="popup__title">Заказать звонок</h2>
+          <form name="formbell" class="popup__form popup__form_type_bell">
+            <label class="popup__field">
+              Имя
+              <input
+                class="popup__name popup__input"
+                type="text"
+                name="name"
+                minlength="2"
+                maxlength="40"
+                placeholder="ваше имя"
+                required
+              />
+            </label>
+            <label class="popup__field">
+              Телефон
+              <input
+                class="popup__phone popup__input"
+                type="tel"
+                name="phone"
+                minlength="10"
+                maxlength="10"
+                placeholder="+7 ХХХ - ХХХ - ХХ -ХХ"
+                required
+              />
+            </label>
+            <label class="popup__field">
+              Email
+              <input
+                class="popup__email popup__input"
+                type="email"
+                name="email"
+                minlength="2"
+                maxlength="40"
+                placeholder="mail@site.com"
+                required
+              />
+            </label>
+            <label class="popup__field">
+              Сообщение
+              <input
+                class="popup__message popup__input"
+                type="text"
+                name="message"
+                minlength="2"
+                maxlength="200"
+                placeholder="Ваше сообщение ..."
+                required
+              />
+            </label>
+            <p class="popup__text">
+              Нажимая кнопку “Отправить”, соглашаюсь с<br />
+              <a class="popup__text color-main" href="#" target="_blank"
+                >политикой конфидениальности</a
+              >
+            </p>
+            <button
+              aria-label="Отправить"
+              class="button-main popup__button"
+              type="submit"
+            >
+              Отправить
+              <img
+                class="button-main-image"
+                src="./images/banner-button-image.svg"
+                alt="Стрелка"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
-    <script src="./pages/index.js"></script>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

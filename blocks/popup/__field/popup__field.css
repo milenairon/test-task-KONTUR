@@ -1,0 +1,10 @@
+/*label с input и ошибкой*/
+.popup__field {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.83px;
+}

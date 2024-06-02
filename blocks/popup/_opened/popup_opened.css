@@ -1,0 +1,5 @@
+/*Открыть поп ап*/
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}

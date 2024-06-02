@@ -1,0 +1,14 @@
+/*Редактировать профиль*/
+.popup__title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__title {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
