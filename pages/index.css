@@ -1,6 +1,8 @@
 /*Нормалайз*/
 @import url(../vendor/normalize.css);
 
+/* ////УДАЛИ ГРАНИЦЫ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 /*Шрифты*/
 @import url(../vendor/fonts.css);
 
@@ -12,29 +14,27 @@
 
 /*Блок logo*/
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_size/_m/logo_size_m.css);
 
 /*Блок header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__items/header__items.css);
-@import url(../blocks/header/__item/header__item.css);
+/* @import url(../blocks/header/__item/header__item.css); */
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-image/header__button-image.css);
 
 /*Блок contacts*/
 @import url(../blocks/contacts/contacts.css);
 
 /*Блок content*/
-@import url(../blocks/content/content.css);
-
-/*Блок color-main*/
-@import url(../blocks/color-main/color-main.css);
-
-/*Блок text-selection*/
-@import url(../blocks/text-selection/text-selection.css);
+/* @import url(../blocks/content/content.css); */
 
 /*Блок banner*/
 @import url(../blocks/banner/banner.css);
-@import url(../blocks/banner/__slides/banner__slides.css);
+/* @import url(../blocks/banner/__slides/banner__slides.css); */
 @import url(../blocks/banner/__slide/banner__slide.css);
 @import url(../blocks/banner/__container/banner__container.css);
 @import url(../blocks/banner/__title/banner__title.css);
@@ -42,15 +42,24 @@
 @import url(../blocks/banner/__form/banner__form.css);
 @import url(../blocks/banner/__button/banner__button.css);
 @import url(../blocks/banner/__button-image/banner__button-image.css);
-@import url(../blocks/banner/__image/banner__image.css);
+/* @import url(../blocks/banner/__image/banner__image.css); */
+
+/*Блок color-main*/
+@import url(../blocks/color-main/color-main.css);
+
+/*Блок text-selection*/
+@import url(../blocks/text-selection/text-selection.css);
 
 /*Блок description*/
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__items/description__items.css);
 @import url(../blocks/description/__item/description__item.css);
 @import url(../blocks/description/__item-image/description__item-image.css);
 @import url(../blocks/description/__item-title/description__item-title.css);
+@import url(../blocks/description/__item-title/_margin/_l/description__item-title_margin_l.css);
+@import url(../blocks/description/__item-title/_margin/_m/description__item-title_margin_m.css);
+@import url(../blocks/description/__item-title/_margin/_s/description__item-title_margin_s.css);
 @import url(../blocks/description/__item-text/description__item-text.css);
 
 /*Блок about-project*/
@@ -64,6 +73,8 @@
 
 /*Блок gallery*/
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__item/_size/_m/gallery__item_size_m.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 /*Блок location*/
@@ -74,13 +85,23 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__box/footer__box.css);
-@import url(../blocks/footer/__box/_direction/_column/);
-@import url(../blocks/footer/__box/_direction/_row/);
+@import url(../blocks/footer/__box/_direction/_column/footer__box_direction_column.css);
+@import url(../blocks/footer/__box/_direction/_row/footer__box_direction_row.css);
+@import url(../blocks/footer/__box/_gap/_l/footer__box_gap_l.css);
+@import url(../blocks/footer/__box/_gap/_m/footer__box_gap_m.css);
+@import url(../blocks/footer/__box/_gap/_s/footer__box_gap_s.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__items/footer__items.css);
-@import url(../blocks/footer/__items/_direction/_column/);
-@import url(../blocks/footer/__items/_direction/_row/);
+@import url(../blocks/footer/__items/_direction/_column/footer__items_direction_column.css);
+@import url(../blocks/footer/__items/_direction/_row/footer__items_direction_row.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__messenger-link/footer__messenger-link.css);
 @import url(../blocks/footer/__messenger-image/footer__messenger-image.css);
+@import url(../blocks/footer/__messenger-image/_unactive/footer__messenger-image_unactive.css);
+@import url(../blocks/footer/__messenger-image/_active/footer__messenger-image_active.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/*Блок color-text*/
+@import url(../blocks/color-text/color-text.css);
+

@@ -1,1 +1,5 @@
-.footer__items{}
+.footer__items {
+  display: flex;
+  /* gap: 16px; */
+
+}

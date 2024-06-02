@@ -1,1 +1,14 @@
-.header{}
+.header {
+  padding: 11px 48px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 75px;
+  display: flex;
+  font-family: "Gilroy", Arial, sans-serif;
+}
+
+@media screen and (max-width: 540px) {
+  .header {
+    padding: 8px 22px 8px 17px;
+    justify-content: space-between;
+  }
+}

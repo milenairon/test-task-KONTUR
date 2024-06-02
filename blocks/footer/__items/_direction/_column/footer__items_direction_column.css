@@ -1,1 +1,4 @@
-.footer__items_direction_column{}
+.footer__items_direction_column {
+  flex-direction: column;
+  gap: 25px;
+}

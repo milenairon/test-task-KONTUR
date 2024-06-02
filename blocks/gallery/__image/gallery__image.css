@@ -1,1 +1,7 @@
-.gallery__image{}
+.gallery__image {
+  display: block;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,1 +1,4 @@
-.footer__items_direction_row{}
+.footer__items_direction_row {
+  flex-direction: row;
+  gap: 16px;
+}

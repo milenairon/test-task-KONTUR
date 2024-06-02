@@ -1,1 +1,7 @@
-.description__items{}
+.description__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  gap: 27px;
+}

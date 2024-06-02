@@ -1,0 +1,6 @@
+.gallery__items {
+  display: grid;
+  column-gap: 17px;
+  row-gap: 17px;
+  grid-template-columns: 2fr 1fr 1fr;
+}

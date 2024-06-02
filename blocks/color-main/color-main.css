@@ -1,1 +1,5 @@
-.color-main{}
+.color-main {
+  color: #f15525;
+  font-weight: 400;
+  margin: 0
+}

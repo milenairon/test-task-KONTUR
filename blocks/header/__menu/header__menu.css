@@ -1,1 +1,7 @@
-.header__menu{}
+@media screen and (max-width: 540px) {
+  .header__menu {
+    overflow: hidden;
+    opacity: 0;
+    display: none;
+  }
+}

@@ -1,0 +1,4 @@
+.gallery__item_size_m {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}

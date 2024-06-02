@@ -92,6 +92,8 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: black;
 }
 
 /**
@@ -183,6 +185,8 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   padding: 0;
+  background-color: transparent;
+  border: none;
 }
 
 /**

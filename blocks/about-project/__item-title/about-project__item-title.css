@@ -1,1 +1,7 @@
-.about-project__item-title{}
+.about-project__item-title {
+  margin-bottom: 3px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  color: #22253b;
+}

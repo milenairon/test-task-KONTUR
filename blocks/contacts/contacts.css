@@ -1,1 +1,12 @@
-.contacts{}
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #38bff2;
+}
+
+@media screen and (max-width: 540px) {
+  .contacts {
+    font-size: 14px;
+  }
+}

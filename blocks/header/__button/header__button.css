@@ -1,0 +1,13 @@
+.header__button {
+  overflow: hidden;
+  opacity: 0;
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .header__button {
+    overflow: visible;
+    opacity: 1;
+    display: block;
+  }
+}

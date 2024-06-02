@@ -1,3 +1,4 @@
 .banner__slide {
-    
+  display: flex;
+  gap: 40px;
 }

@@ -1,0 +1,11 @@
+.footer__messenger-image_unactive {
+  overflow: visible;
+  opacity: 1;
+  display: block;
+}
+
+.footer__messenger-image_unactive:hover {
+  overflow: hidden;
+  opacity: 0;
+  display: none;
+}

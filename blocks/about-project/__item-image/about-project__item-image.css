@@ -1,1 +1,5 @@
-.about-project__item-image{}
+.about-project__item-image {
+  object-fit: cover;
+  width: 397px;
+  height: 100%;
+}

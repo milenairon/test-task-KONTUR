@@ -1,1 +1,10 @@
-.banner__text{}
+.banner__text {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #dedede;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #22253b;
+  max-width: 366px;
+}

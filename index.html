@@ -11,23 +11,36 @@
     <div class="page">
       <header class="header">
         <img class="logo" src="./images/logo.svg" alt="CoDe" />
-        <nav class="header__menu">
-          <ul class="header__items">
-            <li class="header__item">
-              <a class="header__link" href="#">Чему вы научитесь</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Процесс обучения</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Стоимость</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <p class="contacts">+7&nbsp(499)&nbsp348&nbsp93&nbsp96</p>
+        <div class="header__container">
+          <nav class="header__menu">
+            <ul class="header__items">
+              <li class="header__item">
+                <a class="header__link" href="#">Чему вы научитесь</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Процесс обучения</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Стоимость</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            aria-label="Открыть меню"
+            type="submit"
+            class="header__button"
+          >
+            <img
+              class="header__button-image"
+              src="./images/header-button-image.svg"
+              alt="Меню"
+            />
+          </button>
+          <p class="contacts">+7&nbsp(499)&nbsp348&nbsp93&nbsp96</p>
+        </div>
       </header>
       <main class="content">
         <!-- Баннер https://codepen.io/ekrz/pen/EgJJYo и https://codepen.io/A360/pen/zYqKvXN-->
@@ -37,18 +50,16 @@
               <div class="banner__container">
                 <h1 class="banner__title">
                   Школа
-                  <span class="banner__title color-main">{</span>
-                  <span class="banner__title text-selection"
+                  <span class="banner__title color-main">{</span
+                  ><span class="banner__title text-selection"
                     >программирования</span
-                  >
-                  <span class="banner__title color-main">}</span>
+                  ><span class="banner__title color-main">}</span>
                   для тех, кому нужны реальные навыки, а не просто сертификат
                 </h1>
                 <p class="banner__text">
                   Закажите звонок, и наш специалист свяжется с вами в ближайшее
                   время
                 </p>
-
                 <form
                   class="banner__form"
                   action="page/new.html"
@@ -74,7 +85,7 @@
                 alt="Печатающие руки за компьютером"
               />
             </li>
-            <li class="banner__slide">
+            <!-- <li class="banner__slide">
               <div class="banner__container">
                 <h2 class="banner__title">Обучение через практику</h2>
                 <p class="banner__text">
@@ -105,8 +116,8 @@
                 src="./images/banner-slide-2.png"
                 alt="Печатающие руки за компьютером"
               />
-            </li>
-            <li class="banner__slide">
+            </li> -->
+            <!-- <li class="banner__slide">
               <div class="banner__container">
                 <h2 class="banner__title">
                   Весь материал разбит на небольшие уроки
@@ -139,14 +150,13 @@
                 src="./images/banner-slide-3.png"
                 alt="Печатающие руки за компьютером"
               />
-            </li>
+            </li> -->
           </ul>
         </section>
         <section class="description">
-          <!-- Информационные блоки (Обучение в CoDe – это удобно и результативно) должны выполняться на flexbox -->
-          <p class="description__text">
+          <h2 class="description__title">
             Обучение в CoDe – это удобно и результативно
-          </p>
+          </h2>
           <ul class="description__items">
             <li class="description__item">
               <img
@@ -154,9 +164,11 @@
                 src="./images/description-item-image-1.svg"
                 alt="Код в знаковых бозначениях"
               />
-              <h2 class="description__item-title">
+              <h3
+                class="description__item-title description__item-title_margin_l"
+              >
                 Огромное количество практики
-              </h2>
+              </h3>
               <p class="description__item-text">
                 Более 500 самостоятельных заданий и 20 полноценных больших
                 проектов
@@ -168,9 +180,11 @@
                 src="./images/description-item-image-2.svg"
                 alt="Ядро круглой формы со спутниками на орбите"
               />
-              <h2 class="description__item-title">
+              <h3
+                class="description__item-title description__item-title_margin_l"
+              >
                 Современные методики обучения
-              </h2>
+              </h3>
               <p class="description__item-text">
                 Спиральное обучение: погружаемся в материал постепенно, виток за
                 витком
@@ -182,9 +196,11 @@
                 src="./images/description-item-image-3.svg"
                 alt="Компьютер"
               />
-              <h2 class="description__item-title">
+              <h3
+                class="description__item-title description__item-title_margin_l"
+              >
                 Простое и понятное изложение
-              </h2>
+              </h3>
               <p class="description__item-text">
                 Вместо заумных терминов – примеры из реального мира
               </p>
@@ -195,7 +211,11 @@
                 src="./images/description-item-image-4.svg"
                 alt="Календарь"
               />
-              <h2 class="description__item-title">Гибкий график занятий</h2>
+              <h3
+                class="description__item-title description__item-title_margin_m"
+              >
+                Гибкий график занятий
+              </h3>
               <p class="description__item-text">
                 Учитесь в любое время в удобном для вас темпе
               </p>
@@ -206,9 +226,11 @@
                 src="./images/description-item-image-5.svg"
                 alt="Сообщения"
               />
-              <h2 class="description__item-title">
+              <h3
+                class="description__item-title description__item-title_margin_s"
+              >
                 Прямая связь с опытными программистами
-              </h2>
+              </h3>
               <p class="description__item-text">
                 Задавайте вопросы и отправляйте свой код на проверку
               </p>
@@ -219,7 +241,11 @@
                 src="./images/description-item-image-6.svg"
                 alt="Рублевая монета"
               />
-              <h2 class="description__item-title">Оплата небольшими частями</h2>
+              <h3
+                class="description__item-title description__item-title_margin_s"
+              >
+                Оплата небольшими частями
+              </h3>
               <p class="description__item-text">
                 Платите только за тот материал, который сейчас изучаете, а не за
                 весь курс сразу
@@ -231,7 +257,11 @@
                 src="./images/description-item-image-7.svg"
                 alt="Карта в банкомате"
               />
-              <h2 class="description__item-title">Быстрый и легкий возврат</h2>
+              <h3
+                class="description__item-title description__item-title_margin_s"
+              >
+                Быстрый и легкий возврат
+              </h3>
               <p class="description__item-text">
                 Если передумаете учиться – вернем деньги за 3 рабочих дня
               </p>
@@ -262,9 +292,14 @@
             </li>
             <li class="about-project__item">
               <div class="about-project__item-container">
-                <h2 class="about-project__item-title"></h2>
-                <p class="about-project__item-text"></p>
-                <p class="about-project__item-text"></p>
+                <h2 class="about-project__item-title">Методика обучения</h2>
+                <p class="about-project__item-text">
+                  Весь учебный материал структурирован по принципу «спирального
+                  обучения». Сначала вы получаете базовые знания, а затем на
+                  каждом витке спирали углубляетесь в изученные темы, доводя их
+                  понимание до совершенства. Такой подход упрощает обучение и
+                  гарантирует, что вы не пропустите ничего важного.
+                </p>
               </div>
               <img
                 class="about-project__item-image"
@@ -275,32 +310,43 @@
           </ul>
         </section>
         <section class="gallery">
-          <!-- Фотографии в блоке галереи должны открываться в полный экран для просмотра (нужно использовать fancybox) и выполняться с помощью grid. -->
-          <img
-            class="gallery__image"
-            src="./images/gallery-image(people).png"
-            alt="Люди обсуждают лист бумаги"
-          />
-          <img
-            class="gallery__image"
-            src="./images/gallery-image(keys).png"
-            alt="Клавиши со стеком програмирования"
-          />
-          <img
-            class="gallery__image"
-            src="./images/gallery-image(hands-with-watch).png"
-            alt="Руки с часами за компьютером"
-          />
-          <img
-            class="gallery__image"
-            src="./images/gallery-image(hands).png"
-            alt="Руки за компьютером"
-          />
-          <img
-            class="gallery__image"
-            src="./images/gallery-image(boy).png"
-            alt="Мальчик за компьютером улыбается"
-          />
+          <ul class="gallery__items">
+            <li class="gallery__item gallery__item_size_m">
+              <img
+                class="gallery__image"
+                src="./images/gallery-image(people).png"
+                alt="Люди обсуждают лист бумаги"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./images/gallery-image(keys).png"
+                alt="Клавиши со стеком програмирования"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./images/gallery-image(hands-with-watch).png"
+                alt="Руки с часами за компьютером"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./images/gallery-image(hands).png"
+                alt="Руки за компьютером"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery__image"
+                src="./images/gallery-image(boy).png"
+                alt="Мальчик за компьютером улыбается"
+              />
+            </li>
+          </ul>
         </section>
         <section class="location">
           <img
@@ -313,16 +359,27 @@
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__box footer__box_direction_column">
-            <div class="footer__box footer__box_direction_row">
-              <img class="logo" src="./images/logo.svg" alt="CoDe" />
+            <div
+              class="footer__box footer__box_direction_row footer__box_gap_s"
+            >
+              <img
+                class="logo logo_size_m"
+                src="./images/logo.svg"
+                alt="CoDe"
+              />
               <p class="footer__text">Школа программирования</p>
             </div>
             <ul class="footer__items footer__items_direction_row">
               <li class="footer__item">
                 <a class="footer__messenger-link" href="#">
                   <img
-                    class="footer__messenger-image"
+                    class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(instagram).svg"
+                    alt="Инстаграм"
+                  />
+                  <img
+                    class="footer__messenger-image footer__messenger-image_active"
+                    src="./images/footer__messenger-image-active(instagram).svg"
                     alt="Инстаграм"
                   />
                 </a>
@@ -330,8 +387,13 @@
               <li class="footer__item">
                 <a class="footer__messenger-link" href="#">
                   <img
-                    class="footer__messenger-image"
+                    class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(vk).svg"
+                    alt="ВК"
+                  />
+                  <img
+                    class="footer__messenger-image footer__messenger-image_active"
+                    src="./images/footer__messenger-image-active(vk).svg"
                     alt="ВК"
                   />
                 </a>
@@ -339,8 +401,13 @@
               <li class="footer__item">
                 <a class="footer__messenger-link" href="#">
                   <img
-                    class="footer__messenger-image"
+                    class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(facebook).svg"
+                    alt="Фэйсбук"
+                  />
+                  <img
+                    class="footer__messenger-image footer__messenger-image_active"
+                    src="./images/footer__messenger-image-active(facebook).svg"
                     alt="Фэйсбук"
                   />
                 </a>
@@ -348,15 +415,20 @@
               <li class="footer__item">
                 <a class="footer__messenger-link" href="#">
                   <img
-                    class="footer__messenger-image"
+                    class="footer__messenger-image footer__messenger-image_unactive"
                     src="./images/footer__messenger-image(youtube).svg"
+                    alt="Ютуб"
+                  />
+                  <img
+                    class="footer__messenger-image footer__messenger-image_active"
+                    src="./images/footer__messenger-image-active(youtube).svg"
                     alt="Ютуб"
                   />
                 </a>
               </li>
             </ul>
           </div>
-          <div class="footer__box">
+          <div class="footer__box footer__box_direction_row footer__box_gap_l">
             <ul class="footer__items footer__items_direction_column">
               <li class="footer__item">
                 <a class="footer__link" href="#">Чему вы научитесь</a>
@@ -374,17 +446,19 @@
                 <a class="footer__link" href="#">Регистрация</a>
               </li>
             </ul>
-            <ul class="footer__items footer__items_direction_column">
+            <ul class="footer__list">
               <li class="footer__item">
                 <p class="contacts">+7&nbsp(499)&nbsp348&nbsp93&nbsp96</p>
               </li>
-              <li class="footer__item"><p class="contacts">info@code.ru</p></li>
+              <li class="footer__item">
+                <p class="contacts color-text">info@code.ru</p>
+              </li>
             </ul>
           </div>
         </div>
         <div class="footer__container">
           <p class="footer__copyright">2024 © Все права защищены</p>
-          <div class="footer__box">
+          <div class="footer__box footer__box_direction_row footer__box_gap_m">
             <p class="footer__copyright">Пользовательское соглашение</p>
             <p class="footer__copyright">Политика конфиденциальности</p>
           </div>

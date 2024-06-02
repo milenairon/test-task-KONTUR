@@ -1,1 +1,10 @@
-.description__item{}
+.description__item {
+  background-color: #eaf2f5;
+  max-width: 270px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+  height: 254px;
+  padding: 50px 35px 31px;
+}
+

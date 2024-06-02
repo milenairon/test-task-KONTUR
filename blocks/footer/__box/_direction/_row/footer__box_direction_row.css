@@ -1,1 +1,3 @@
-.footer__box_direction_row{}
+.footer__box_direction_row {
+  flex-direction: row;
+}

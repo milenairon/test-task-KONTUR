@@ -1,1 +1,6 @@
-.about-project__item{}
+.about-project__item {
+  display: flex;
+  gap: 32px;
+  margin: 32px;
+  height:max-content
+}

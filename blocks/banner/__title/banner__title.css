@@ -1,2 +1,7 @@
 .banner__title {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 46px;
+  color: #22253b;
+  max-width: 638px;
 }

@@ -1,1 +1,8 @@
-.description__item-text{}
+.description__item-text {
+  margin: 10px auto 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #22253b;
+  height: 49px;
+}

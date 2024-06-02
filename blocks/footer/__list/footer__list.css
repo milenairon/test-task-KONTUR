@@ -1,0 +1,6 @@
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-right: 30px;
+}

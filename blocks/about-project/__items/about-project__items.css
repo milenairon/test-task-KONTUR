@@ -1,1 +1,7 @@
-.about-project__items{}
+.about-project__items {
+}
+
+
+.about-project__items:first-child {
+  margin: 0;
+}
