@@ -16,7 +16,7 @@ bannerButtons.forEach((item) => item.addEventListener("click", openbell));
 $(document).ready(function () {
   $(".banner__slides").slick({
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 300000,
     dots: true,
     arrows: true,
     arrowsPlacement: "beforeSlides",
