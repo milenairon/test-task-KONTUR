@@ -5,7 +5,7 @@
   height: max-content;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .about-project__item {
     flex-direction: column;
     gap: 12px;

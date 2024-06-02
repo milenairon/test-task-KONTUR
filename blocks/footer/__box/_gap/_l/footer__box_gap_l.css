@@ -2,7 +2,13 @@
   gap: 168px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
+  .footer__box_gap_l {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .footer__box_gap_l {
     gap: 43px;
   }

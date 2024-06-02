@@ -9,7 +9,7 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 900px) {
   .header__button {
     overflow: visible;
     opacity: 1;

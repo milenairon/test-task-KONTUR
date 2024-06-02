@@ -3,7 +3,7 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer__items_direction_row {
     justify-content: center;
     align-items: start;

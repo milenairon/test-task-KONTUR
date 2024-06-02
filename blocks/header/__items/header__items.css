@@ -3,6 +3,21 @@
   gap: 41px;
 }
 
+@media screen and (max-width: 1200px) {
+  .header__items {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__items {
+    gap: 10px;
+  }
+  .header__item {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .header__items {
     flex-direction: column;

@@ -8,7 +8,7 @@
   font-family: "Gilroy", Arial, sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .banner {
     padding: 32px 3px 45px;
     border-radius: 48px;

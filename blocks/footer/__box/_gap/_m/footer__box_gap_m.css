@@ -2,7 +2,7 @@
   gap: 64px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer__box_gap_m {
     gap: 6px;
   }

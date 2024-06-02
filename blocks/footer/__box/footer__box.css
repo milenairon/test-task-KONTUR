@@ -2,7 +2,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer__box {
     justify-content: center;
   }

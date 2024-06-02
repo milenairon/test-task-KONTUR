@@ -3,7 +3,7 @@
   grid-row-end: 3;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .gallery__item_size_m {
     grid-column-start: 1;
     grid-column-end: 3;

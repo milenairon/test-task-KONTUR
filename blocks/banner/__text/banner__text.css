@@ -13,7 +13,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .banner__text_unactive {
     display: none;
   }

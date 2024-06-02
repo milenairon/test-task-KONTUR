@@ -3,7 +3,7 @@
   gap: 37px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .footer__box_direction_column {
     gap: 23px;
   }
