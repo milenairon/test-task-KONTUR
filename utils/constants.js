@@ -1,5 +1,4 @@
 //Находим элементы секции banner
-const banner = document.querySelector(".banner");
-const bannerButton = banner.querySelector(".button-main");
+const bannerButtons = document.querySelectorAll(".button-main");
 
-export { bannerButton };
+export { bannerButtons };

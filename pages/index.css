@@ -40,6 +40,7 @@
 @import url(../blocks/banner/__title/banner__title.css);
 @import url(../blocks/banner/__text/banner__text.css);
 @import url(../blocks/banner/__form/banner__form.css);
+@import url(../blocks/banner/__button-paging/banner__button-paging.css);
 /* @import url(../blocks/banner/__image/banner__image.css); */
 
 /*Блок text-selection*/

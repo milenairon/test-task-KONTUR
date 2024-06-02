@@ -1,0 +1,21 @@
+.banner__button-paging {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.banner__button-paging_place_right {
+  left: calc(-37px * 2);
+}
+
+.banner__button-paging_place_left {
+  left: calc(100% + 37px / 2);
+}
+
+.banner__button-paging:hover svg circle {
+  fill: #f15525;
+}
+
+.banner__button-paging:hover svg path {
+  fill: #ffffff;
+}
