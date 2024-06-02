@@ -1,2 +1,7 @@
-.banner__container {
+@media screen and (max-width: 600px) {
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

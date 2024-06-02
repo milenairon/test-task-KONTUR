@@ -1,3 +1,9 @@
 .description__item-title_margin_s {
   margin-top: 1px;
 }
+
+@media screen and (max-width: 600px) {
+  .description__item-title_margin_s {
+    margin-top: 5px;
+  }
+}

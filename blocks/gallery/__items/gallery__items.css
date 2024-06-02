@@ -4,3 +4,11 @@
   row-gap: 17px;
   grid-template-columns: 2fr 1fr 1fr;
 }
+
+@media screen and (max-width: 600px) {
+  .gallery__items {
+    gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: 300px 1fr 1fr;
+  }
+}

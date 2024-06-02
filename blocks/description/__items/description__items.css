@@ -5,3 +5,10 @@
   margin-top: 34px;
   gap: 27px;
 }
+
+@media screen and (max-width: 600px) {
+  .description__items {
+    margin-top: 24px;
+    gap: 10px;
+  }
+}

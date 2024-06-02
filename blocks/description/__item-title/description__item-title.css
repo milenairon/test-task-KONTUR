@@ -4,5 +4,13 @@
   line-height: 18.5px;
   color: #22253b;
   max-width: 200px;
-  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .description__item-title {
+    font-size: 12px;
+    line-height: 12px;
+    max-width: 126px;
+  }
 }

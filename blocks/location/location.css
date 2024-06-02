@@ -1,3 +1,9 @@
 .location {
   margin-top: 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .location {
+    margin-top: 24px;
+  }
+}

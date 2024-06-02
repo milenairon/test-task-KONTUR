@@ -1,3 +1,10 @@
 .footer__box_direction_row {
   flex-direction: row;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__box_direction_row {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

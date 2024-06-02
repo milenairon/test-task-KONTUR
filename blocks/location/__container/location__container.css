@@ -4,3 +4,9 @@
   border-radius: 30px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+  .location__container {
+    height: 415px;
+  }
+}

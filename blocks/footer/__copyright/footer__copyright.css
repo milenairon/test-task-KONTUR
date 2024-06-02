@@ -4,3 +4,21 @@
   line-height: 23px;
   color: #8e8e8e;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__copyright {
+    font-size: 12px;
+    margin-top: 13px;
+    text-align: center;
+  }
+  .footer__copyright {
+    font-size: 12px;
+    margin-top: 13px;
+    text-align: center;
+    color: #f15525;
+  }
+
+  .footer__copyright:first-child {
+    color: #8e8e8e;
+  }
+}

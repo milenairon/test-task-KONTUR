@@ -7,3 +7,14 @@
   text-align: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .description__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    max-width: 283px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

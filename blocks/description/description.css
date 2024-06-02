@@ -2,3 +2,9 @@
   padding: 60px 0 0;
   font-family: "Gilroy", Arial, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+  .description {
+    padding: 32px 0 0;
+  }
+}

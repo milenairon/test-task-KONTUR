@@ -2,3 +2,12 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
+
+@media screen and (max-width: 600px) {
+  .gallery__item_size_m {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}

@@ -2,5 +2,22 @@
   display: flex;
   gap: 32px;
   margin: 32px;
-  height:max-content
+  height: max-content;
+}
+
+@media screen and (max-width: 600px) {
+  .about-project__item {
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 0 12px;
+    height: auto;
+  }
+  
+  .about-project__item:last-child {
+    margin: 0;
+  }
+
+  .about-project__item_reverse {
+    flex-direction: column-reverse;
+  }
 }

@@ -8,3 +8,23 @@
   color: #22253b;
   max-width: 366px;
 }
+
+.banner__text_active {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__text_unactive {
+    display: none;
+  }
+
+  .banner__text_active {
+    display: inline-block;
+    margin-top: 16px;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 270px;
+  }
+}

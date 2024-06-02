@@ -2,3 +2,10 @@
   flex-direction: row;
   gap: 16px;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__items_direction_row {
+    justify-content: center;
+    align-items: start;
+  }
+}

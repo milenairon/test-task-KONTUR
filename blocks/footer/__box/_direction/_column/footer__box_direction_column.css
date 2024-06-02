@@ -2,3 +2,9 @@
   flex-direction: column;
   gap: 37px;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__box_direction_column {
+    gap: 23px;
+  }
+}

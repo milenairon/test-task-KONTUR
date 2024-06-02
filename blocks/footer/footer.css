@@ -2,3 +2,9 @@
   margin-top: 64px;
   font-family: "Gilroy", Arial, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 39px;
+  }
+}

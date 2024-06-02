@@ -2,3 +2,11 @@
   flex-direction: column;
   gap: 25px;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__items_direction_column {
+    margin-top: 43px;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -5,3 +5,12 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+  .gallery__image {
+    display: inline-block;
+    border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
+  }
+}

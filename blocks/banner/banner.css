@@ -1,9 +1,16 @@
 .banner {
   padding: 60px 78px 56px 98px;
   background-image: url(../../images/description\(background-image\).png);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   border-radius: 75px;
   font-family: "Gilroy", Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    padding: 32px 3px 45px;
+    border-radius: 48px;
+  }
 }

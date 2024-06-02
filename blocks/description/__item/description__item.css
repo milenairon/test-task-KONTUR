@@ -8,3 +8,14 @@
   padding: 50px 35px 31px;
 }
 
+@media screen and (max-width: 600px) {
+  .description__item {
+    max-width: 145px;
+    border-radius: 20px;
+    height: 175px;
+    padding: 24px 12px 23px;
+  }
+  .description__item-image {
+    max-height: 38px;
+  }
+}

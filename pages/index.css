@@ -39,7 +39,7 @@
 @import url(../blocks/banner/__text/banner__text.css);
 @import url(../blocks/banner/__form/banner__form.css);
 @import url(../blocks/banner/__button-paging/banner__button-paging.css);
-/* @import url(../blocks/banner/__image/banner__image.css); */
+@import url(../blocks/banner/__image/banner__image.css);
 
 /*Блок text-selection*/
 @import url(../blocks/text-selection/text-selection.css);
@@ -49,7 +49,7 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__items/description__items.css);
 @import url(../blocks/description/__item/description__item.css);
-@import url(../blocks/description/__item-image/description__item-image.css);
+/* @import url(../blocks/description/__item-image/description__item-image.css); */
 @import url(../blocks/description/__item-title/description__item-title.css);
 @import url(../blocks/description/__item-title/_margin/_l/description__item-title_margin_l.css);
 @import url(../blocks/description/__item-title/_margin/_m/description__item-title_margin_m.css);
@@ -88,10 +88,10 @@
 @import url(../blocks/footer/__items/footer__items.css);
 @import url(../blocks/footer/__items/_direction/_column/footer__items_direction_column.css);
 @import url(../blocks/footer/__items/_direction/_row/footer__items_direction_row.css);
-@import url(../blocks/footer/__item/footer__item.css);
+/* @import url(../blocks/footer/__item/footer__item.css); */
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__messenger-link/footer__messenger-link.css);
-@import url(../blocks/footer/__messenger-image/footer__messenger-image.css);
+/* @import url(../blocks/footer/__messenger-image/footer__messenger-image.css); */
 @import url(../blocks/footer/__messenger-image/_unactive/footer__messenger-image_unactive.css);
 @import url(../blocks/footer/__messenger-image/_active/footer__messenger-image_active.css);
 @import url(../blocks/footer/__list/footer__list.css);
@@ -117,5 +117,13 @@
 /*Блок color-main*/
 @import url(../blocks/color-main/color-main.css);
 
+/*Блок span*/
+@import url(../blocks/span/span.css);
+
+/*Блок button-main*/
 @import url(../blocks/button-main/button-main.css);
 @import url(../blocks/button-main/__image/button-main__image.css);
+
+* {
+  border: 1px solid red;
+}
