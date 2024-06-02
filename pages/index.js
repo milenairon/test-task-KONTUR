@@ -30,7 +30,7 @@ headerButton.addEventListener("click", openMenu);
 $(document).ready(function () {
   $(".banner__slides").slick({
     autoplay: true,
-    autoplaySpeed: 300000,
+    autoplaySpeed: 3000,
     dots: true,
     arrows: true,
     arrowsPlacement: "beforeSlides",

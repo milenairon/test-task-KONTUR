@@ -1,7 +1,7 @@
-# Тестовое задание. СибирьТрансАзия
+# Тестовое задание. KONTUR
 
 <div align="center">
-<img src='/src/images/Обзор-проекта.gif' alt='обзор проекта'>
+<img src='/images/Обзор проекта.gif' alt='Обзор проекта'>
 </div>
 
 ---
@@ -17,35 +17,40 @@
 
 ## 1. Описание
 
-Проект включает фронтенд часть веб-страницы с функцией загрузки цитаты.
+Проект включает фронтенд часть веб-страницы со следующими функциями:
 
-Проект написан на JavaScript, собран через Webpack с использыванием кампилятора Babel.
+1. Баннер выполнен с помощью слайдера (slick);
+2. Адаптивная и резиновая верстка;
+3. Использования модальных окон;
+4. Fancybox - открытие фотографий во весь размер;
+5. Карту 2gis подключена с помощью API;
+6. Использована библиотека JQuery.
+
+Проект написан на JavaScript.
 
 ---
 
 ## 2. Как запустить проект
 
-1. Скачайте из репозитория https://github.com/milenairon/test-task-SiberiaTransAsia папку, нажав на кнопку Code → Download ZIP
+1. Скачайте из репозитория https://github.com/milenairon/test-task-KONTUR папку, нажав на кнопку Code → Download ZIP
 2. Извлеките данные из папки.
-3. Скачайте Node.js
-4. Войдите через командную строку Node.js. Введите '''npm run dev'''.
+3. Нажмите 2 раза правой клавишей мыши на файл index.html.
 
 ---
 
 ## 3. Ссылка на проект
 
-- Адрес репозитория: https://github.com/milenairon/test-task-SiberiaTransAsia
+- Адрес репозитория: https://github.com/milenairon/test-task-KONTUR
 
-- Ссылка на макет: https://www.figma.com/file/LO52lOozNdEPKfb4Q8Zs5i/Тестовое-для-frontend-разработчика-%7C-ГК-STA?type=design&node-id=0-1&mode=design&t=QFcZcD0xwbfUvMWD-0
-
-- Ссылка на тз: https://docs.google.com/document/d/1Hk-ApB5V0A76a7r19NKnwmpLFvDiZfQ3iUU-nnXK6SY/bell?pli=1
+- Ссылка на макет: https://www.figma.com/design/yh7Cudc7f3a6tEn3LQiXnk/Тестовое-KONTUR?node-id=0-1&t=uHHejiWOaYIci0Y8-0
 
 ---
 
-## 4. Технологии, используемые в проекте
+## 4. Планы по доработке
 
 В проекте были применены технологии:
 
-- верстка;
-- сборка проекта через Webpack;
-- загрузка цитаты через сторонний сайт(метод template-элемента).
+- подогнать верстку под Pixel Perfect,
+- валидация HTML-, CSS-, JS- файлов,
+- в блоке description последний элемент списка растянуть на всю ширину, сделать ширину строк текста в 3 строки,
+- уточнить у службы поддержки причину периодичной работоспособности ключа от 2gis.
