@@ -123,7 +123,3 @@
 /*Блок button-main*/
 @import url(../blocks/button-main/button-main.css);
 @import url(../blocks/button-main/__image/button-main__image.css);
-
-* {
-  border: 1px solid red;
-}

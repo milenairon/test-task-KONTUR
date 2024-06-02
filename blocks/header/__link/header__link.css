@@ -9,7 +9,7 @@
   color: #f15525;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 900px) {
   .header__link {
     font-weight: 500;
     font-size: 20px;

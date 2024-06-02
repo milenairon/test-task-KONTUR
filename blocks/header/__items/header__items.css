@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 900px) {
   .header__items {
     flex-direction: column;
     gap: 1px;
