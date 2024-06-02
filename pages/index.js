@@ -1,7 +1,10 @@
-// ОТКРЫТЬ ПОПАП
 import PopupWithForm from "../components/PopupWithForm.js";
-import { bannerButtons } from "../utils/constants.js";
+import PopupWithMenu from "../components/PopupWithMenu.js";
 
+import { bannerButtons, headerButton } from "../utils/constants.js";
+
+// ОТКРЫТЬ ПОПАП
+// Открыть попап в блоке banner
 function openbell() {
   popupWithFormbell.open();
 }
@@ -11,6 +14,17 @@ const popupWithFormbell = new PopupWithForm(".popup_place_bell");
 popupWithFormbell.setEventListeners();
 
 bannerButtons.forEach((item) => item.addEventListener("click", openbell));
+
+// Открыть попап в блоке header
+function openMenu() {
+  popupWithMenu.open();
+}
+
+//Действия при Submit формы Munu
+const popupWithMenu = new PopupWithMenu(".popup_place_menu");
+popupWithMenu.setEventListeners();
+
+headerButton.addEventListener("click", openMenu);
 
 // БАННЕР
 $(document).ready(function () {

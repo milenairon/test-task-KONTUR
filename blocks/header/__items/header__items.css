@@ -2,3 +2,10 @@
   display: flex;
   gap: 41px;
 }
+
+@media screen and (max-width: 540px) {
+  .header__items {
+    flex-direction: column;
+    gap: 1px;
+  }
+}

@@ -106,7 +106,7 @@
             <li>
               <div class="banner__slide">
                 <div class="banner__container">
-                  <h2 class="banner__title">Обучение <br/>через практику</h2>
+                  <h2 class="banner__title">Обучение <br />через практику</h2>
                   <p class="banner__text">
                     Всё, что вы узнали, вы тут же начинаете применять на
                     практике. Вы сразу видите результаты своего труда.
@@ -502,7 +502,7 @@
       <div class="popup popup_place_bell">
         <div class="popup__container popup__container_place_bell">
           <h2 class="popup__title">Заказать звонок</h2>
-          <form name="formbell" class="popup__form popup__form_type_bell">
+          <form name="formBell" class="popup__form popup__form_type_bell">
             <label class="popup__field">
               Имя
               <input
@@ -572,8 +572,64 @@
           </form>
         </div>
       </div>
+      <div class="popup popup_place_menu">
+        <div class="popup__container popup__container_place_menu">
+          <button
+            aria-label="Закрыть"
+            type="button"
+            class="popup__button-close"
+          >
+            <img
+              class="popup__close-icon"
+              src="/images/close-icon.svg"
+              alt="Крестик закрытия"
+            />
+          </button>
+          <nav class="header__popup-menu">
+            <ul class="header__items">
+              <li class="header__item">
+                <a class="header__link" href="#" target="_blank"
+                  >Чему вы научитесь</a
+                >
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#" target="_blank"
+                  >Процесс обучения</a
+                >
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#" target="_blank">Стоимость</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#" target="_blank">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- <form name="formMenu" class="popup__form popup__form_type_menu">
+             <p class="popup__text">
+              Нажимая кнопку “Отправить”, соглашаюсь с<br />
+              <a class="popup__text color-main" href="#" target="_blank"
+                >политикой конфидениальности</a
+              >
+            </p>
+            <button
+              aria-label="Отправить"
+              class="button-main popup__button"
+              type="submit"
+            >
+              Отправить
+              <img
+                class="button-main__image"
+                src="./images/banner-button-image.svg"
+                alt="Стрелка"
+              />
+            </button>
+          </form> -->
+        </div>
+      </div>
     </div>
-    <script src="https://mapgl.2gis.com/api/js/v1"></script>
+    <!-- <script src="https://mapgl.2gis.com/api/js/v1"></script>
     <script>
       const map = new mapgl.Map("location__container", {
         center: [55.029086, 82.926669],
@@ -584,7 +640,7 @@
       const marker = new mapgl.Marker(map, {
         coordinates: [55.029086, 82.926669],
       });
-    </script>
+    </script> -->
     <!-- ✅ load jQuery ✅ -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"

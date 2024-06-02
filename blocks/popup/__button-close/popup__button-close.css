@@ -1,0 +1,10 @@
+/*Кнопка закрыть*/
+.popup__button-close {
+  position: absolute;
+  top: 32px;
+  right: 30.39px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}

@@ -2,6 +2,11 @@
   overflow: hidden;
   opacity: 0;
   display: none;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 540px) {
