@@ -6,12 +6,7 @@ import PopupWithForm from "../components/PopupWithForm.js";
 import { bannerButton } from "../utils/constants.js";
 
 function openbell() {
-  //создано для слушателя
-  //вставляет данные при открытии
-  //   popupWithFormbell.setInputValues(userInfoElement.getUserInfo());
   popupWithFormbell.open();
-  //   validationFormbell.addButonInactive();
-  console.log(1);
 }
 
 bannerButton.addEventListener("click", openbell);
