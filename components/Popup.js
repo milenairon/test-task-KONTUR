@@ -21,8 +21,7 @@ export default class Popup {
   //закрыть попап  на крестик/темный фон
   _handlePopupClose(evt) {
     if (
-      evt.currentTarget === evt.target || //закрытие при нажатии в пустоту
-      evt.target.classList.contains("popup__close-icon") //закрытие при нажатии на крестик
+      evt.currentTarget === evt.target //закрытие при нажатии в пустоту
     ) {
       //если 'элемент на котором висит(сам попапа, смотри ниже вызов)' = 'элемент, на который нажали(сам попап)' или 'параметр содержит класс popup__button-close'
       this.close();

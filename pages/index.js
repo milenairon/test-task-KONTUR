@@ -17,27 +17,7 @@ function openbell() {
 bannerButton.addEventListener("click", openbell);
 
 //Действия при Submit формы bell
-const popupWithFormbell = new PopupWithForm(".popup_place_bell", {
-  callbackSubmitForm: (inputValues) => {
-    console.log(2);
-    //   popupWithFormbell.changeValueButtonAtBoot("Сохранение...");
-    //Запрос. Редактирование профиля
-    //   api
-    //     .bellProfile(inputValues.forename, inputValues.job)
-    //     .then((data) => {
-    //       popupWithFormbell.changeValueButtonAtBoot("Данные сохранены!");
-    //       userInfoElement.setUserInfo(data);
-    //       popupWithFormbell.close();
-    //     })
-    //     .catch((error) => {
-    //       //если запрос не ушел
-    //       console.log(error);
-    //     })
-    //     .finally(() => {
-    //       popupWithFormbell.changeValueButtonAtBoot("Сохранить");
-    //     });
-  },
-});
+const popupWithFormbell = new PopupWithForm(".popup_place_bell");
 popupWithFormbell.setEventListeners();
 
 // //Запрос
