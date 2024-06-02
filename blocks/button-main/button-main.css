@@ -8,6 +8,9 @@
   color: #ffffff;
   background-color: #f15525;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
 }
 .button-main:hover {
   background-color: #38bff2;
